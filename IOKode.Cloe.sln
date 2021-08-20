@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOKode.Cloe.Domain", "IOKode.Cloe.Domain\IOKode.Cloe.Domain.csproj", "{F29C9E98-2FEA-4B1A-884A-66120720474E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOKode.Cloe.Application", "IOKode.Cloe.Application\IOKode.Cloe.Application.csproj", "{AFF91A75-18E8-4BAE-B1EE-4B92E8FF86F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3D856835-73A1-40C1-9D42-524DA2E16575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOKode.Cloe.InMemoryPersistence", "IOKode.Cloe.InMemoryPersistence\IOKode.Cloe.InMemoryPersistence.csproj", "{A7A47E84-9F16-4601-B396-6755D877C008}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F29C9E98-2FEA-4B1A-884A-66120720474E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29C9E98-2FEA-4B1A-884A-66120720474E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29C9E98-2FEA-4B1A-884A-66120720474E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29C9E98-2FEA-4B1A-884A-66120720474E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF91A75-18E8-4BAE-B1EE-4B92E8FF86F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF91A75-18E8-4BAE-B1EE-4B92E8FF86F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF91A75-18E8-4BAE-B1EE-4B92E8FF86F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF91A75-18E8-4BAE-B1EE-4B92E8FF86F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A47E84-9F16-4601-B396-6755D877C008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A47E84-9F16-4601-B396-6755D877C008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A47E84-9F16-4601-B396-6755D877C008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A47E84-9F16-4601-B396-6755D877C008}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7A47E84-9F16-4601-B396-6755D877C008} = {3D856835-73A1-40C1-9D42-524DA2E16575}
+	EndGlobalSection
+EndGlobal
