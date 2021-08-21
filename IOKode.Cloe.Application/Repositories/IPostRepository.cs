@@ -5,10 +5,10 @@ using IOKode.Cloe.Domain.Entities;
 
 namespace IOKode.Cloe.Application.Repositories
 {
-    public interface IPostRepository
+    public interface IPostRepository : IRepository
     {
         public Task AddAsync(Post post, CancellationToken cancellationToken);
-        public Task<Post> GetByIdAsync(Id<Post> id, CancellationToken cancellationToken);
+        public Task<Post?> GetByIdAsync(Id<Post> id, CancellationToken cancellationToken);
         public Task DeleteAsync(Id<Post> id, CancellationToken cancellationToken);
 
         public async Task DeleteAsync(Post post, CancellationToken cancellationToken)

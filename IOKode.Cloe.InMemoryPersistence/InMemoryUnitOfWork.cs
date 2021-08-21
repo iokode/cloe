@@ -1,19 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using IOKode.Cloe.Application;
+using IOKode.Cloe.Application.Repositories;
+using IOKode.Cloe.InMemoryPersistence.Repositories;
 
 namespace IOKode.Cloe.InMemoryPersistence
 {
-    public class InMemoryUnitOfWork : IUnitOfWork
+    internal class InMemoryUnitOfWork : IUnitOfWork
     {
-        public TRepository GetRepository<TRepository>()
+        public static List<IInMemoryRepository> Repositories { get; } = new()
         {
-            throw new System.NotImplementedException();
+            new InMemoryPostRepository()
+        };
+
+        public TRepository GetRepository<TRepository>() where TRepository : IRepository
+        {
+            if (typeof(TRepository).IsAssignableTo(typeof(IPostRepository)))
+            {
+                return (TRepository) GetInMemoryRepository<InMemoryPostRepository>();
+            }
+
+            throw new Exception("Trying to get not implemented repository.");
         }
 
-        public async Task CommitAsync(CancellationToken cancellationToken)
+        public Task CommitAsync(CancellationToken cancellationToken)
         {
-            throw new System.NotImplementedException();
+            foreach (var repository in Repositories)
+            {
+                repository.PersistItems();
+            }
+
+            return Task.CompletedTask;
+        }
+
+        public static IRepository GetInMemoryRepository<TRepository>()
+            where TRepository : IInMemoryRepository, new()
+        {
+            return Repositories.First(repository => repository is TRepository);
         }
     }
 }

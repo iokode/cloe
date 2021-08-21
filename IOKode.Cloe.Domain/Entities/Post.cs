@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using IOKode.Cloe.Domain.ValueObjects;
 
 namespace IOKode.Cloe.Domain.Entities
 {
@@ -26,8 +27,15 @@ namespace IOKode.Cloe.Domain.Entities
         public string Title { get; set; }
         public string SearcherTitle { get; set; }
         public string SearcherDescription { get; set; }
-        public string Content { get; set; } // todo Change type to Markdown
+        public Markdown Content { get; set; } // todo Change type to Markdown
         public IList<string> Keywords { get; set; }
         public Id<User> AuthorId { get; set; }
+
+        public void Publish(DateTime publishDate)
+        {
+            PublishDate = publishDate;
+        }
+        
+        public void Publish() => Publish(DateTime.Now);
     }
 }
