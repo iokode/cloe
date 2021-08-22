@@ -4,7 +4,8 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using IOKode.Cloe.Application;
-using IOKode.Cloe.Application.Repositories;
+using IOKode.Cloe.Application.PersistenceContracts;
+using IOKode.Cloe.Application.Posts.Repositories;
 using IOKode.Cloe.InMemoryPersistence.Repositories;
 
 namespace IOKode.Cloe.InMemoryPersistence

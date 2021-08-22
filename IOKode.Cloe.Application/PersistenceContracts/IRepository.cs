@@ -1,4 +1,4 @@
-namespace IOKode.Cloe.Application.Repositories
+namespace IOKode.Cloe.Application.PersistenceContracts
 {
     public interface IRepository
     {

@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace IOKode.Cloe.Application
+namespace IOKode.Cloe.Application.PersistenceContracts
 {
     public interface IQueryService
     {

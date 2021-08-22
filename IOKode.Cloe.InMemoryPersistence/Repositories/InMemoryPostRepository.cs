@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using IOKode.Cloe.Application.Repositories;
+using IOKode.Cloe.Application.Posts.Repositories;
 using IOKode.Cloe.Domain;
 using IOKode.Cloe.Domain.Entities;
 

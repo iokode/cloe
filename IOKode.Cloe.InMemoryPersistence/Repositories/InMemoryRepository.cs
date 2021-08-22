@@ -1,5 +1,6 @@
 using System.Collections.Generic;
-using IOKode.Cloe.Application.Repositories;
+using IOKode.Cloe.Application;
+using IOKode.Cloe.Application.PersistenceContracts;
 
 namespace IOKode.Cloe.InMemoryPersistence.Repositories
 {

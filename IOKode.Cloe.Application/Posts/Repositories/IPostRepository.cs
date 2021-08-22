@@ -1,9 +1,10 @@
 using System.Threading;
 using System.Threading.Tasks;
+using IOKode.Cloe.Application.PersistenceContracts;
 using IOKode.Cloe.Domain;
 using IOKode.Cloe.Domain.Entities;
 
-namespace IOKode.Cloe.Application.Repositories
+namespace IOKode.Cloe.Application.Posts.Repositories
 {
     public interface IPostRepository : IRepository
     {

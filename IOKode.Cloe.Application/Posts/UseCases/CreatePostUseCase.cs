@@ -2,8 +2,9 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using IOKode.Cloe.Application.PersistenceContracts;
 using IOKode.Cloe.Application.Posts.Models;
-using IOKode.Cloe.Application.Repositories;
+using IOKode.Cloe.Application.Posts.Repositories;
 using IOKode.Cloe.Domain.Entities;
 
 namespace IOKode.Cloe.Application.Posts.UseCases

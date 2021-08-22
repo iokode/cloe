@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using IOKode.Cloe.Application;
+using IOKode.Cloe.Application.PersistenceContracts;
 using IOKode.Cloe.Domain.Entities;
 using IOKode.Cloe.InMemoryPersistence.Repositories;
 
