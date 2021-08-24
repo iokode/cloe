@@ -1,4 +1,6 @@
-namespace IOKode.Cloe.Domain.Entities
+using IOKode.Cloe.Domain.ValueObjects;
+
+namespace IOKode.Cloe.Domain.Authors.Entities
 {
     public class Author
     {

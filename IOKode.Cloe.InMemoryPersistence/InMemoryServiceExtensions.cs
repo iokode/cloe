@@ -1,5 +1,4 @@
-using IOKode.Cloe.Application;
-using IOKode.Cloe.Application.PersistenceContracts;
+using IOKode.Cloe.Application.Contracts.Persistence;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace IOKode.Cloe.InMemoryPersistence

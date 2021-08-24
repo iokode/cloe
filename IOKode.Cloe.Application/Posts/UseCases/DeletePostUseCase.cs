@@ -1,9 +1,9 @@
 using System.Threading;
 using System.Threading.Tasks;
-using IOKode.Cloe.Application.PersistenceContracts;
+using IOKode.Cloe.Application.Contracts.Persistence;
 using IOKode.Cloe.Application.Posts.Repositories;
-using IOKode.Cloe.Domain;
-using IOKode.Cloe.Domain.Entities;
+using IOKode.Cloe.Domain.Posts.Entities;
+using IOKode.Cloe.Domain.ValueObjects;
 
 namespace IOKode.Cloe.Application.Posts.UseCases
 {

@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
+using IOKode.Cloe.Domain.Authors.Entities;
 using IOKode.Cloe.Domain.ValueObjects;
 
-namespace IOKode.Cloe.Domain.Entities
+namespace IOKode.Cloe.Domain.Posts.Entities
 {
     public class Post
     {

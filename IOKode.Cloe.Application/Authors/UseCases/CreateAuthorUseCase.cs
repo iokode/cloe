@@ -1,8 +1,8 @@
 using System.Threading;
 using System.Threading.Tasks;
 using IOKode.Cloe.Application.Authors.Repositories;
-using IOKode.Cloe.Application.PersistenceContracts;
-using IOKode.Cloe.Domain.Entities;
+using IOKode.Cloe.Application.Contracts.Persistence;
+using IOKode.Cloe.Domain.Authors.Entities;
 
 namespace IOKode.Cloe.Application.Authors.UseCases
 {

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using IOKode.Cloe.Domain;
-using IOKode.Cloe.Domain.Entities;
+using IOKode.Cloe.Domain.Authors.Entities;
 using IOKode.Cloe.Domain.ValueObjects;
 
 namespace IOKode.Cloe.Application.Posts.Models
