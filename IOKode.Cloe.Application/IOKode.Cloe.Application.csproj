@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\IOKode.Cloe.Application.Contracts\IOKode.Cloe.Application.Contracts.csproj" />
       <ProjectReference Include="..\IOKode.Cloe.Domain\IOKode.Cloe.Domain.csproj" />
     </ItemGroup>
 

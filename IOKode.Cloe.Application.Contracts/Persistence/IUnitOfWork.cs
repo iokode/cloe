@@ -1,7 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace IOKode.Cloe.Application.PersistenceContracts
+namespace IOKode.Cloe.Application.Contracts.Persistence
 {
     public interface IUnitOfWork
     {

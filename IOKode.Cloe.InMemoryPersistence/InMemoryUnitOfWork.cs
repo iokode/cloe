@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using IOKode.Cloe.Application;
-using IOKode.Cloe.Application.PersistenceContracts;
+using IOKode.Cloe.Application.Contracts.Persistence;
 using IOKode.Cloe.Application.Posts.Repositories;
 using IOKode.Cloe.InMemoryPersistence.Repositories;
 

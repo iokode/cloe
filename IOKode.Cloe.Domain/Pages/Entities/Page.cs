@@ -1,6 +1,6 @@
 using IOKode.Cloe.Domain.ValueObjects;
 
-namespace IOKode.Cloe.Domain.Entities
+namespace IOKode.Cloe.Domain.Pages.Entities
 {
     public class Page
     {

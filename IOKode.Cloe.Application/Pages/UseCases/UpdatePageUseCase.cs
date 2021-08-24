@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using IOKode.Cloe.Application.Contracts.Persistence;
 using IOKode.Cloe.Application.Pages.Models;
 using IOKode.Cloe.Application.Pages.Repositories;
-using IOKode.Cloe.Application.PersistenceContracts;
-using IOKode.Cloe.Domain;
-using IOKode.Cloe.Domain.Entities;
+using IOKode.Cloe.Domain.Pages.Entities;
+using IOKode.Cloe.Domain.ValueObjects;
 
 namespace IOKode.Cloe.Application.Pages.UseCases
 {

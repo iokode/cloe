@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOKode.Cloe.Host", "IOKode.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOKode.Cloe.Rest", "IOKode.Cloe.Rest\IOKode.Cloe.Rest.csproj", "{E13F0F08-8AA1-4D16-AC81-9564CAEDA936}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOKode.Cloe.Application.Contracts", "IOKode.Cloe.Application.Contracts\IOKode.Cloe.Application.Contracts.csproj", "{2F2D6755-8713-4E50-8601-CB2F46C9DF42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{E13F0F08-8AA1-4D16-AC81-9564CAEDA936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E13F0F08-8AA1-4D16-AC81-9564CAEDA936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E13F0F08-8AA1-4D16-AC81-9564CAEDA936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2D6755-8713-4E50-8601-CB2F46C9DF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2D6755-8713-4E50-8601-CB2F46C9DF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2D6755-8713-4E50-8601-CB2F46C9DF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2D6755-8713-4E50-8601-CB2F46C9DF42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A7A47E84-9F16-4601-B396-6755D877C008} = {3D856835-73A1-40C1-9D42-524DA2E16575}

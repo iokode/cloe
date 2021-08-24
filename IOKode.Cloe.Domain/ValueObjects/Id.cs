@@ -1,4 +1,4 @@
-namespace IOKode.Cloe.Domain
+namespace IOKode.Cloe.Domain.ValueObjects
 {
     public record Id<TEntity>
     {
