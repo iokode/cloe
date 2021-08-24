@@ -10,4 +10,8 @@
       <ProjectReference Include="..\IOKode.Cloe.Domain\IOKode.Cloe.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Users\Roles\UseCases" />
+    </ItemGroup>
+
 </Project>
